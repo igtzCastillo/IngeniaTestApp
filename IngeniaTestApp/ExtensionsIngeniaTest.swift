@@ -72,8 +72,7 @@ extension UIImageView {
                         
                     } catch {
                         
-                        print (error)
-                        print("Error al guardar imagen")
+//                        print (error)
                         
                     }
                     

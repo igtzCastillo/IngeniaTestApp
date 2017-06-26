@@ -17,9 +17,12 @@ class ServerManager: NSObject {
     static let productionServer  = "https://api.github.com"
     let typeOfServer = productionServer
     
+    let clientID = "b98414c6b2f43a2bca42"
+    let clientSecret = "1ac759acd386cb4c7b1a246723a6ca2f41fbf89f"
+    
     func getAllTheGists(actionsToDoWhenSucceeded: @escaping (_ arrayOfGists: Array<Gist>) -> Void, actionsToDoWhenFailed: @escaping () -> Void ) {
         
-        let urlToRequest = "\(typeOfServer)/gists/public?client_id=92530193b47a7b1d8e80&client_secret=c395e12f750f494db26b26a5971307f402d1e16c"
+        let urlToRequest = "\(typeOfServer)/gists/public?client_id=\(clientID)&client_secret=\(clientSecret)"
         
             var requestConnection = URLRequest.init(url: NSURL.init(string: urlToRequest)! as URL)
             requestConnection.httpMethod = "GET"
@@ -35,8 +38,6 @@ class ServerManager: NSObject {
                             var arrayOfGist: Array<Gist> = Array<Gist>()
 
                             let rawArrayOfGists = try JSONSerialization.jsonObject(with: response.data!, options: []) as! Array<[String: AnyObject]>
-                            
-//                            print(rawArrayOfGists)
                             
                             for rawGist in rawArrayOfGists {
                                 
@@ -56,13 +57,9 @@ class ServerManager: NSObject {
                                 
                                 let newGist = Gist.init(newId: newId, newURL: newURL, newFile: newFile, newDescription: newDescription, newNumberOfComments: newNumberOfComments, newCommentsURL: newURLComments, newAvatarURL: newAvatarURL, newUserLogin: newUserLogin, newCreatedAt: newCreatedAt)
                                 
-                                print(newGist)
-                                
                                 arrayOfGist.append(newGist)
                                 
                             }
-                            
-                            print("There area: \(arrayOfGist.count) gists")
                             
                             self.getAllAvatars(arrayOfGists: arrayOfGist, index: 0, numberOfCorrectRequests: 0) {
                                 
@@ -73,7 +70,7 @@ class ServerManager: NSObject {
                         } catch(_) {
                                 
                             let alertController = UIAlertController(title: "ERROR",
-                                                                    message: "Error de conexión con el servidor, favor de intentar más tarde",
+                                                                    message: "Connection error, try later",
                                                                     preferredStyle: UIAlertControllerStyle.alert)
                                 
                             let cancelAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default) { (result : UIAlertAction) -> Void in
@@ -92,7 +89,7 @@ class ServerManager: NSObject {
                 } else {
                         
                     let alertController = UIAlertController(title: "ERROR",
-                                                            message: "Error de conexión con el servidor, favor de intentar más tarde",
+                                                            message: "Connection error, try later",
                                                             preferredStyle: UIAlertControllerStyle.alert)
                         
                     let cancelAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default) { (result : UIAlertAction) -> Void in
@@ -114,9 +111,9 @@ class ServerManager: NSObject {
     
     private func getAllAvatars(arrayOfGists: Array<Gist>, index: Int, numberOfCorrectRequests: Int, actionsToDoWhenSucceeded: @escaping () -> Void ) {
         
-        if index < 2 {  //arrayOfGists.count {  CHANGE THIS AT THE EEEEEEENNNDDDDDDDD
+        if index < arrayOfGists.count {
     
-            let urlToRequest = arrayOfGists[index].url + "?client_id=92530193b47a7b1d8e80&client_secret=c395e12f750f494db26b26a5971307f402d1e16c"
+            let urlToRequest = arrayOfGists[index].url + "?client_id=\(clientID)&client_secret=\(clientSecret)"
             var requestConnection = URLRequest.init(url: NSURL.init(string: urlToRequest)! as URL)
             requestConnection.httpMethod = "GET"
             
@@ -148,15 +145,13 @@ class ServerManager: NSObject {
                             arrayOfGists[index].avatarURL = avatarURL
                             arrayOfGists[index].userLogin = userLogin
                             
-                            print("Peticion de avatar número: \(index)")
-                            
                             self.getAllAvatars(arrayOfGists: arrayOfGists, index: index + 1, numberOfCorrectRequests: numberOfCorrectRequests + 1, actionsToDoWhenSucceeded: actionsToDoWhenSucceeded)
                             
                             
                         } catch(_) {
                             
                             let alertController = UIAlertController(title: "ERROR",
-                                                                    message: "Error de conexión con el servidor, favor de intentar más tarde",
+                                                                    message: "Connection error, try later",
                                                                     preferredStyle: UIAlertControllerStyle.alert)
                             
                             let cancelAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default) { (result : UIAlertAction) -> Void in
@@ -178,7 +173,7 @@ class ServerManager: NSObject {
             
         } else
         
-        if index == 2 && numberOfCorrectRequests == 2 {         //  (index == arrayOfGists.count - 1) && (numberOfCorrectRequests == arrayOfGists.count - 1) {
+        if (index == arrayOfGists.count) && (numberOfCorrectRequests == arrayOfGists.count) {
                 
             actionsToDoWhenSucceeded()
             
@@ -187,7 +182,7 @@ class ServerManager: NSObject {
         } else {
             
             let alertController = UIAlertController(title: "ERROR",
-                                                    message: "Error de conexión con el servidor, favor de intentar más tarde",
+                                                    message: "Connection error, try later",
                                                     preferredStyle: UIAlertControllerStyle.alert)
             
             let cancelAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default) { (result : UIAlertAction) -> Void in
@@ -237,7 +232,7 @@ class ServerManager: NSObject {
                 } else {
                     
                     let alertController = UIAlertController(title: "ERROR",
-                                                            message: "Error de conexión con el servidor, favor de intentar más tarde",
+                                                            message: "Connection error, try later",
                                                             preferredStyle: UIAlertControllerStyle.alert)
                     
                     let cancelAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default) { (result : UIAlertAction) -> Void in

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520134701.141155"
+            timestampString = "520163997.736079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "getAllTheGists(actionsToDoWhenSucceeded:actionsToDoWhenFailed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,27 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520134701.141155"
+            timestampString = "520163997.736079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "getAllAvatars(arrayOfGists:index:numberOfCorrectRequests:actionsToDoWhenSucceeded:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520134701.141155"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "181"
-            endingLineNumber = "181"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
             landmarkName = "getAllAvatars(arrayOfGists:index:numberOfCorrectRequests:actionsToDoWhenSucceeded:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +42,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520134701.141155"
+            timestampString = "520163997.736079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "189"
-            endingLineNumber = "189"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "getAllAvatars(arrayOfGists:index:numberOfCorrectRequests:actionsToDoWhenSucceeded:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IngeniaTestApp/ServerManager.swift"
+            timestampString = "520163997.736079"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
             landmarkName = "getAllAvatars(arrayOfGists:index:numberOfCorrectRequests:actionsToDoWhenSucceeded:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520114487.789149"
+            timestampString = "520163997.736079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "getAllTheGists(actionsToDoWhenSucceeded:actionsToDoWhenFailed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520114516.780654"
+            timestampString = "520163997.736079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "getAllTheGists(actionsToDoWhenSucceeded:actionsToDoWhenFailed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520134701.141155"
+            timestampString = "520163997.736079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "getAllTheGists(actionsToDoWhenSucceeded:actionsToDoWhenFailed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520116260.875524"
+            timestampString = "520163997.736079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "getAllTheGists(actionsToDoWhenSucceeded:actionsToDoWhenFailed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520116329.276334"
+            timestampString = "520163997.736079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "getAllTheGists(actionsToDoWhenSucceeded:actionsToDoWhenFailed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520134701.141155"
+            timestampString = "520163997.736079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
             landmarkName = "getAllAvatars(arrayOfGists:index:numberOfCorrectRequests:actionsToDoWhenSucceeded:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520134701.141155"
+            timestampString = "520163997.736079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
             landmarkName = "getAllAvatars(arrayOfGists:index:numberOfCorrectRequests:actionsToDoWhenSucceeded:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520142848.459574"
+            timestampString = "520163997.736079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "235"
-            endingLineNumber = "235"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
             landmarkName = "getFileInfo(url:actionsToDoWhenSucceeded:actionsToDoWhenFailed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/ServerManager.swift"
-            timestampString = "520137246.323495"
+            timestampString = "520163997.736079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "231"
-            endingLineNumber = "231"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
             landmarkName = "getFileInfo(url:actionsToDoWhenSucceeded:actionsToDoWhenFailed:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -257,38 +257,6 @@
             endingLineNumber = "125"
             landmarkName = "getAllGists()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IngeniaTestApp.SplashViewController.(getAllGists in _46F7DC3A5554D8783016A03C1B4660B5) () -&gt; Swift.Array&lt;IngeniaTestApp.GistCD&gt;"
-                  moduleName = "IngeniaTestApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alejandroaristic/Documents/Proyectos/IngeniaTestApp/IngeniaTestApp/SplashViewController.swift"
-                  timestampString = "520162763.998381"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
-                  offsetFromSymbolStart = "668">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IngeniaTestApp.SplashViewController.(getAllGists in _46F7DC3A5554D8783016A03C1B4660B5) () -&gt; Swift.Array&lt;IngeniaTestApp.GistCD&gt;"
-                  moduleName = "IngeniaTestApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alejandroaristic/Documents/Proyectos/IngeniaTestApp/IngeniaTestApp/SplashViewController.swift"
-                  timestampString = "520162763.999613"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
-                  offsetFromSymbolStart = "762">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -305,38 +273,6 @@
             endingLineNumber = "122"
             landmarkName = "getAllGists()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IngeniaTestApp.SplashViewController.(getAllGists in _46F7DC3A5554D8783016A03C1B4660B5) () -&gt; Swift.Array&lt;IngeniaTestApp.GistCD&gt;"
-                  moduleName = "IngeniaTestApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alejandroaristic/Documents/Proyectos/IngeniaTestApp/IngeniaTestApp/SplashViewController.swift"
-                  timestampString = "520162764.002175"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
-                  offsetFromSymbolStart = "668">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IngeniaTestApp.SplashViewController.(getAllGists in _46F7DC3A5554D8783016A03C1B4660B5) () -&gt; Swift.Array&lt;IngeniaTestApp.GistCD&gt;"
-                  moduleName = "IngeniaTestApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alejandroaristic/Documents/Proyectos/IngeniaTestApp/IngeniaTestApp/SplashViewController.swift"
-                  timestampString = "520162764.004387"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
-                  offsetFromSymbolStart = "762">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -426,11 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/GistListViewController.swift"
-            timestampString = "520162187.248293"
+            timestampString = "520164625.684806"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "375"
-            endingLineNumber = "375"
+            startingLineNumber = "370"
+            endingLineNumber = "370"
             landmarkName = "getNonExistentelements(arrayFromServer:arrayFromCoreData:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -442,27 +378,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IngeniaTestApp/GistListViewController.swift"
-            timestampString = "520162187.248293"
+            timestampString = "520164625.684806"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "373"
-            endingLineNumber = "373"
-            landmarkName = "getNonExistentelements(arrayFromServer:arrayFromCoreData:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IngeniaTestApp/GistListViewController.swift"
-            timestampString = "520162187.248293"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "382"
-            endingLineNumber = "382"
+            startingLineNumber = "368"
+            endingLineNumber = "368"
             landmarkName = "getNonExistentelements(arrayFromServer:arrayFromCoreData:)"
             landmarkType = "7">
          </BreakpointContent>

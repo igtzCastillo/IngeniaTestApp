@@ -200,8 +200,6 @@ class GistListViewController: UITableViewController {
         
         ServerManager.sharedInstance.getFileInfo(url: urlString, actionsToDoWhenSucceeded: { (htmlInfo) in
             
-            print(htmlInfo)
-            
             UtilityManager.sharedInstance.hideLoader()
             
             let detailFileVC = GistFileDetailViewController.init(urlOfFile: htmlInfo)
@@ -243,13 +241,35 @@ class GistListViewController: UITableViewController {
             
             UtilityManager.sharedInstance.hideLoader()
             
+            let alertController = UIAlertController(title: "ERROR",
+                                                    message: "Connection error. We'll show the info saved in the device",
+                                                    preferredStyle: UIAlertControllerStyle.alert)
+            
+            let cancelAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default) { (result : UIAlertAction) -> Void in
+                
+                let arrayOfGistsFromCoreData = self.getAllGists()
+                
+                self.searchController.isActive = false
+                self.refreshControl?.endRefreshing()
+                
+                self.arrayOfElements = arrayOfGistsFromCoreData
+                self.filteredElements = arrayOfGistsFromCoreData
+                
+                self.tableView.reloadData()
+                
+            }
+            
+            alertController.addAction(cancelAction)
+            
+            let actualController = UtilityManager.sharedInstance.currentViewController()
+            actualController.present(alertController, animated: true, completion: nil)
+            
+            
         })
         
     }
     
     private func insert(arrayOfGists: Array<Gist>) {
-        
-        //let allExistingGists = self.getAllGists()
         
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         
@@ -279,7 +299,6 @@ class GistListViewController: UITableViewController {
         do {
             
             try context.save()
-            print("Well done saved")
             
         } catch {
             
@@ -321,7 +340,7 @@ class GistListViewController: UITableViewController {
             
         }
         
-        return arrayOfGistCD.sorted{ $0.createdAt! < $1.createdAt! }
+        return arrayOfGistCD.sorted{ $0.createdAt! > $1.createdAt! }
         
     }
     
@@ -357,8 +376,6 @@ class GistListViewController: UITableViewController {
     
     private func getNonExistentelements(arrayFromServer: Array<Gist>, arrayFromCoreData: Array<Gist>) -> Array<Gist> {
         
-        var numberOfAddedelements = 0
-        
         if arrayFromCoreData.count > 0 {
             
             var arrayOfNonExistingInCoreData = Array<Gist>()
@@ -366,9 +383,6 @@ class GistListViewController: UITableViewController {
             for serverGist in arrayFromServer {
                 
                 for i in 0...arrayFromCoreData.count - 1 {
-                    
-//                    print(arrayFromServer[i].id)
-//                    print(coreDataGist.id)
                     
                     if arrayFromCoreData[i].id == serverGist.id {
                         
@@ -379,7 +393,6 @@ class GistListViewController: UITableViewController {
                         if i == arrayFromCoreData.count - 1 {
                             
                             arrayOfNonExistingInCoreData.append(serverGist)
-                            numberOfAddedelements = numberOfAddedelements + 1
                             
                             break
                             
@@ -390,8 +403,6 @@ class GistListViewController: UITableViewController {
                 }
                 
             }
-            
-            print("ADDED ELEMENTS!!!!!! : \(numberOfAddedelements)")
             
             return arrayOfNonExistingInCoreData
             
