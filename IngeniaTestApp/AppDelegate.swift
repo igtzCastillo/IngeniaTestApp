@@ -17,7 +17,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.loadController()
+        
         return true
+        
+    }
+    
+    fileprivate func loadController() {
+        
+        let gistListVC = GistListViewController.init(style: .plain)
+        let mainNavigationController = UINavigationController.init(rootViewController: gistListVC)
+        
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        window?.rootViewController = mainNavigationController
+        window?.makeKeyAndVisible()
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

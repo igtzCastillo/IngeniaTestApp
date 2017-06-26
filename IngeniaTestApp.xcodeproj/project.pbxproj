@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AB477278234B920DF3D7AEE /* Pods_IngeniaTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E000CA9AD2B1184DEDE46D3 /* Pods_IngeniaTestApp.framework */; };
+		FC005CA51EFF92A50022785A /* UtilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC005CA41EFF92A50022785A /* UtilityManager.swift */; };
+		FC005CA71EFF92CC0022785A /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC005CA61EFF92CC0022785A /* ServerManager.swift */; };
 		FC8F60401EFF91990036EAE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8F603F1EFF91990036EAE2 /* AppDelegate.swift */; };
 		FC8F60421EFF91990036EAE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8F60411EFF91990036EAE2 /* ViewController.swift */; };
-		FC8F60451EFF91990036EAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8F60431EFF91990036EAE2 /* Main.storyboard */; };
 		FC8F60481EFF91990036EAE2 /* IngeniaTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC8F60461EFF91990036EAE2 /* IngeniaTestApp.xcdatamodeld */; };
 		FC8F604A1EFF91990036EAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8F60491EFF91990036EAE2 /* Assets.xcassets */; };
 		FC8F604D1EFF91990036EAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8F604B1EFF91990036EAE2 /* LaunchScreen.storyboard */; };
+		FCE8F5801F0017F7002739F5 /* Gist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8F57F1F0017F7002739F5 /* Gist.swift */; };
+		FCE8F5821F00185D002739F5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8F5811F00185D002739F5 /* File.swift */; };
+		FCE8F5841F005E9D002739F5 /* GistListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8F5831F005E9D002739F5 /* GistListViewController.swift */; };
+		FCE8F5861F005F0C002739F5 /* GistCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8F5851F005F0C002739F5 /* GistCustomTableViewCell.swift */; };
+		FCE8F58A1F00A4BE002739F5 /* GistFileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8F5891F00A4BE002739F5 /* GistFileDetailViewController.swift */; };
+		FCE8F5D01F00CC2A002739F5 /* ExtensionsIngeniaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8F5CF1F00CC2A002739F5 /* ExtensionsIngeniaTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E000CA9AD2B1184DEDE46D3 /* Pods_IngeniaTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IngeniaTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86314E8C8735EACDF190D0A3 /* Pods-IngeniaTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IngeniaTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IngeniaTestApp/Pods-IngeniaTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B8E208831D6BEB22E712530C /* Pods-IngeniaTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IngeniaTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-IngeniaTestApp/Pods-IngeniaTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		FC005CA41EFF92A50022785A /* UtilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityManager.swift; sourceTree = "<group>"; };
+		FC005CA61EFF92CC0022785A /* ServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
 		FC8F603C1EFF91990036EAE2 /* IngeniaTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IngeniaTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8F603F1EFF91990036EAE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC8F60411EFF91990036EAE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC8F60441EFF91990036EAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC8F60471EFF91990036EAE2 /* IngeniaTestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IngeniaTestApp.xcdatamodel; sourceTree = "<group>"; };
 		FC8F60491EFF91990036EAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC8F604C1EFF91990036EAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC8F604E1EFF91990036EAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE8F57F1F0017F7002739F5 /* Gist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gist.swift; sourceTree = "<group>"; };
+		FCE8F5811F00185D002739F5 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		FCE8F5831F005E9D002739F5 /* GistListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistListViewController.swift; sourceTree = "<group>"; };
+		FCE8F5851F005F0C002739F5 /* GistCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistCustomTableViewCell.swift; sourceTree = "<group>"; };
+		FCE8F5891F00A4BE002739F5 /* GistFileDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistFileDetailViewController.swift; sourceTree = "<group>"; };
+		FCE8F5CF1F00CC2A002739F5 /* ExtensionsIngeniaTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionsIngeniaTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB477278234B920DF3D7AEE /* Pods_IngeniaTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B1564CCC70BBBE4B225C08B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E000CA9AD2B1184DEDE46D3 /* Pods_IngeniaTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58F0DDA2E251DB2B17112200 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86314E8C8735EACDF190D0A3 /* Pods-IngeniaTestApp.debug.xcconfig */,
+				B8E208831D6BEB22E712530C /* Pods-IngeniaTestApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FC8F60331EFF91980036EAE2 = {
 			isa = PBXGroup;
 			children = (
 				FC8F603E1EFF91990036EAE2 /* IngeniaTestApp */,
 				FC8F603D1EFF91990036EAE2 /* Products */,
+				58F0DDA2E251DB2B17112200 /* Pods */,
+				2B1564CCC70BBBE4B225C08B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +96,14 @@
 			children = (
 				FC8F603F1EFF91990036EAE2 /* AppDelegate.swift */,
 				FC8F60411EFF91990036EAE2 /* ViewController.swift */,
-				FC8F60431EFF91990036EAE2 /* Main.storyboard */,
+				FCE8F5831F005E9D002739F5 /* GistListViewController.swift */,
+				FCE8F5851F005F0C002739F5 /* GistCustomTableViewCell.swift */,
+				FCE8F5891F00A4BE002739F5 /* GistFileDetailViewController.swift */,
+				FC005CA41EFF92A50022785A /* UtilityManager.swift */,
+				FC005CA61EFF92CC0022785A /* ServerManager.swift */,
+				FCE8F57F1F0017F7002739F5 /* Gist.swift */,
+				FCE8F5811F00185D002739F5 /* File.swift */,
+				FCE8F5CF1F00CC2A002739F5 /* ExtensionsIngeniaTest.swift */,
 				FC8F60491EFF91990036EAE2 /* Assets.xcassets */,
 				FC8F604B1EFF91990036EAE2 /* LaunchScreen.storyboard */,
 				FC8F604E1EFF91990036EAE2 /* Info.plist */,
@@ -74,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC8F60511EFF91990036EAE2 /* Build configuration list for PBXNativeTarget "IngeniaTestApp" */;
 			buildPhases = (
+				7D9AA74886609F9E131E2D7A /* [CP] Check Pods Manifest.lock */,
 				FC8F60381EFF91980036EAE2 /* Sources */,
 				FC8F60391EFF91980036EAE2 /* Frameworks */,
 				FC8F603A1EFF91980036EAE2 /* Resources */,
+				B508F861FF5F01D93A526E34 /* [CP] Embed Pods Frameworks */,
+				86C68C2216EB312F953DD3B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,11 +176,58 @@
 			files = (
 				FC8F604D1EFF91990036EAE2 /* LaunchScreen.storyboard in Resources */,
 				FC8F604A1EFF91990036EAE2 /* Assets.xcassets in Resources */,
-				FC8F60451EFF91990036EAE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D9AA74886609F9E131E2D7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86C68C2216EB312F953DD3B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IngeniaTestApp/Pods-IngeniaTestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B508F861FF5F01D93A526E34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IngeniaTestApp/Pods-IngeniaTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC8F60381EFF91980036EAE2 /* Sources */ = {
@@ -141,21 +236,21 @@
 			files = (
 				FC8F60421EFF91990036EAE2 /* ViewController.swift in Sources */,
 				FC8F60401EFF91990036EAE2 /* AppDelegate.swift in Sources */,
+				FCE8F5D01F00CC2A002739F5 /* ExtensionsIngeniaTest.swift in Sources */,
+				FCE8F58A1F00A4BE002739F5 /* GistFileDetailViewController.swift in Sources */,
+				FCE8F5841F005E9D002739F5 /* GistListViewController.swift in Sources */,
 				FC8F60481EFF91990036EAE2 /* IngeniaTestApp.xcdatamodeld in Sources */,
+				FC005CA51EFF92A50022785A /* UtilityManager.swift in Sources */,
+				FC005CA71EFF92CC0022785A /* ServerManager.swift in Sources */,
+				FCE8F5821F00185D002739F5 /* File.swift in Sources */,
+				FCE8F5861F005F0C002739F5 /* GistCustomTableViewCell.swift in Sources */,
+				FCE8F5801F0017F7002739F5 /* Gist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FC8F60431EFF91990036EAE2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC8F60441EFF91990036EAE2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC8F604B1EFF91990036EAE2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -260,6 +355,7 @@
 		};
 		FC8F60521EFF91990036EAE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86314E8C8735EACDF190D0A3 /* Pods-IngeniaTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IngeniaTestApp/Info.plist;
@@ -272,6 +368,7 @@
 		};
 		FC8F60531EFF91990036EAE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E208831D6BEB22E712530C /* Pods-IngeniaTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IngeniaTestApp/Info.plist;
@@ -301,6 +398,7 @@
 				FC8F60531EFF91990036EAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
