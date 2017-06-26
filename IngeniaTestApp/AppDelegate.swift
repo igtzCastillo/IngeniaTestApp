@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  IngeniaTestApp
 //
-//  Created by Alejandro Aristi C on 25/06/17.
+//  Created by Israel Gutiérrez on 25/06/17.
 //  Copyright © 2017 Israel Gutierrez. All rights reserved.
 //
 

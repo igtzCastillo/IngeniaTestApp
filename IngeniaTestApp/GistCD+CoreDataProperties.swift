@@ -2,7 +2,7 @@
 //  GistCD+CoreDataProperties.swift
 //  
 //
-//  Created by Alejandro Aristi C on 26/06/17.
+//  Created by Israel Gutiérrez on 26/06/17.
 //
 //
 
